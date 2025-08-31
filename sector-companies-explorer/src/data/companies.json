@@ -1,0 +1,78 @@
+{
+  "sectors": [
+    "Tech & Product Companies",
+    "Finance & FinTech",
+    "Healthcare & BioTech",
+    "Retail, E-Commerce & Logistics",
+    "Automotive & Energy",
+    "Media, Entertainment & Gaming",
+    "Cloud & Enterprise Software",
+    "AI, Data Science & Research",
+    "Public Sector, Education & Research",
+    "Startups (Cross-Disciplinary)",
+    "Telecommunications",
+    "Cybersecurity",
+    "Travel, Hospitality & Transportation",
+    "Manufacturing & Industrial IoT",
+    "Real Estate & PropTech",
+    "LegalTech & Gov Compliance",
+    "Agriculture & FoodTech",
+    "Non-Profit & Social Impact Tech"
+  ],
+  "companies": [
+    { "name": "Google", "sector": "Tech & Product Companies", "careers": "https://careers.google.com", "hq": "Mountain View, CA", "remote": true },
+    { "name": "Meta", "sector": "Tech & Product Companies", "careers": "https://www.metacareers.com", "hq": "Menlo Park, CA", "remote": true },
+    { "name": "Microsoft", "sector": "Tech & Product Companies", "careers": "https://careers.microsoft.com", "hq": "Redmond, WA", "remote": true },
+
+    { "name": "JPMorgan Chase", "sector": "Finance & FinTech", "careers": "https://careers.jpmorgan.com", "hq": "New York, NY", "remote": false },
+    { "name": "Stripe", "sector": "Finance & FinTech", "careers": "https://stripe.com/jobs", "hq": "San Francisco, CA", "remote": true },
+
+    { "name": "CVS Health", "sector": "Healthcare & BioTech", "careers": "https://jobs.cvshealth.com", "hq": "Woonsocket, RI", "remote": true },
+    { "name": "Epic Systems", "sector": "Healthcare & BioTech", "careers": "https://careers.epic.com", "hq": "Verona, WI", "remote": false },
+
+    { "name": "Amazon", "sector": "Retail, E-Commerce & Logistics", "careers": "https://www.amazon.jobs", "hq": "Seattle, WA", "remote": true },
+    { "name": "Flexport", "sector": "Retail, E-Commerce & Logistics", "careers": "https://www.flexport.com/careers", "hq": "San Francisco, CA", "remote": true },
+
+    { "name": "Tesla", "sector": "Automotive & Energy", "careers": "https://www.tesla.com/careers", "hq": "Austin, TX", "remote": false },
+    { "name": "Rivian", "sector": "Automotive & Energy", "careers": "https://rivian.com/careers", "hq": "Irvine, CA", "remote": false },
+
+    { "name": "Spotify", "sector": "Media, Entertainment & Gaming", "careers": "https://www.lifeatspotify.com", "hq": "Stockholm, SE", "remote": true },
+    { "name": "Riot Games", "sector": "Media, Entertainment & Gaming", "careers": "https://www.riotgames.com/en/work-with-us", "hq": "Los Angeles, CA", "remote": false },
+
+    { "name": "AWS", "sector": "Cloud & Enterprise Software", "careers": "https://www.amazon.jobs/en/teams/AWS", "hq": "Seattle, WA", "remote": true },
+    { "name": "Snowflake", "sector": "Cloud & Enterprise Software", "careers": "https://careers.snowflake.com", "hq": "Bozeman, MT", "remote": true },
+
+    { "name": "OpenAI", "sector": "AI, Data Science & Research", "careers": "https://openai.com/careers", "hq": "San Francisco, CA", "remote": true },
+    { "name": "NVIDIA", "sector": "AI, Data Science & Research", "careers": "https://www.nvidia.com/en-us/about-nvidia/careers", "hq": "Santa Clara, CA", "remote": true },
+
+    { "name": "USDS", "sector": "Public Sector, Education & Research", "careers": "https://www.usds.gov/join", "hq": "Washington, DC", "remote": true },
+    { "name": "NASA", "sector": "Public Sector, Education & Research", "careers": "https://www.nasa.gov/careers", "hq": "Washington, DC", "remote": false },
+
+    { "name": "YC Jobs", "sector": "Startups (Cross-Disciplinary)", "careers": "https://www.ycombinator.com/jobs", "hq": "Remote", "remote": true },
+    { "name": "Wellfound", "sector": "Startups (Cross-Disciplinary)", "careers": "https://wellfound.com", "hq": "Remote", "remote": true },
+
+    { "name": "Verizon", "sector": "Telecommunications", "careers": "https://www.verizon.com/about/careers", "hq": "New York, NY", "remote": true },
+    { "name": "Cisco", "sector": "Telecommunications", "careers": "https://jobs.cisco.com", "hq": "San Jose, CA", "remote": true },
+
+    { "name": "CrowdStrike", "sector": "Cybersecurity", "careers": "https://www.crowdstrike.com/careers", "hq": "Austin, TX", "remote": true },
+    { "name": "Okta", "sector": "Cybersecurity", "careers": "https://www.okta.com/company/careers", "hq": "San Francisco, CA", "remote": true },
+
+    { "name": "Uber", "sector": "Travel, Hospitality & Transportation", "careers": "https://www.uber.com/us/en/careers", "hq": "San Francisco, CA", "remote": true },
+    { "name": "Airbnb", "sector": "Travel, Hospitality & Transportation", "careers": "https://careers.airbnb.com", "hq": "San Francisco, CA", "remote": true },
+
+    { "name": "Siemens", "sector": "Manufacturing & Industrial IoT", "careers": "https://jobs.siemens.com", "hq": "Munich, DE", "remote": true },
+    { "name": "Honeywell", "sector": "Manufacturing & Industrial IoT", "careers": "https://careers.honeywell.com", "hq": "Charlotte, NC", "remote": true },
+
+    { "name": "Zillow", "sector": "Real Estate & PropTech", "careers": "https://www.zillowgroup.com/careers", "hq": "Seattle, WA", "remote": true },
+    { "name": "Procore", "sector": "Real Estate & PropTech", "careers": "https://www.procore.com/jobs", "hq": "Carpinteria, CA", "remote": true },
+
+    { "name": "DocuSign", "sector": "LegalTech & Gov Compliance", "careers": "https://www.docusign.com/company/careers", "hq": "San Francisco, CA", "remote": true },
+    { "name": "Relativity", "sector": "LegalTech & Gov Compliance", "careers": "https://www.relativity.com/company/careers", "hq": "Chicago, IL", "remote": true },
+
+    { "name": "John Deere", "sector": "Agriculture & FoodTech", "careers": "https://www.deere.com/en/careers", "hq": "Moline, IL", "remote": true },
+    { "name": "Indigo Ag", "sector": "Agriculture & FoodTech", "careers": "https://www.indigoag.com/careers", "hq": "Boston, MA", "remote": true },
+
+    { "name": "CZI", "sector": "Non-Profit & Social Impact Tech", "careers": "https://chanzuckerberg.com/careers", "hq": "Redwood City, CA", "remote": true },
+    { "name": "Khan Academy", "sector": "Non-Profit & Social Impact Tech", "careers": "https://www.khanacademy.org/careers", "hq": "Mountain View, CA", "remote": true }
+  ]
+}
