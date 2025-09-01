@@ -1,34 +1,21 @@
+// components/SectorSelect.jsx
 import React from 'react'
-import { motion } from 'framer-motion'
+import { ChevronDown } from 'lucide-react'
 
 export function SectorSelect({ value, onChange, sectors }) {
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="relative inline-block">
       <select
         value={value}
         onChange={e => onChange(e.target.value)}
-        className="w-64 rounded-2xl border px-4 py-2.5 shadow-sm focus:outline-none focus:ring-2 focus:ring-black/10"
+        aria-label="Select sector"
+        className="w-72 pl-4 pr-10 py-3 rounded-2xl border border-[hsl(var(--border))] bg-[hsl(var(--card))] shadow-sm focus:outline-none focus:ring-2 focus:ring-[hsl(var(--primary)/0.2)] focus:border-[hsl(var(--primary))] transition-all duration-200 text-[hsl(var(--foreground))] appearance-none cursor-pointer"
       >
         {sectors.map(s => (
           <option key={s} value={s}>{s}</option>
         ))}
       </select>
-      <div className="hidden md:flex flex-wrap gap-2">
-        {sectors.map(s => (
-          <motion.button
-            key={s}
-            whileHover={{ y: -1 }}
-            onClick={() => onChange(s)}
-            className={
-              'rounded-full px-3 py-1.5 text-sm border shadow-sm transition ' +
-              (value === s ? 'bg-black text-white border-black' : 'bg-white hover:bg-gray-50')
-            }
-            title={s}
-          >
-            {s.replace(' & ', ' · ')}
-          </motion.button>
-        ))}
-      </div>
+      <ChevronDown size={16} className="absolute right-4 top-1/2 -translate-y-1/2 text-[hsl(var(--muted-foreground))] pointer-events-none" />
     </div>
   )
 }
